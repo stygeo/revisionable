@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "revisionable"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Revision control for ActiveRecord models}
+    gem.description = %Q{Revision control for Rails' ActiveRecord models}
     gem.email = "stygeo@gmail.com"
     gem.homepage = "http://github.com/stygeo/revisionable"
     gem.authors = ["Jeffrey Wilcke"]
