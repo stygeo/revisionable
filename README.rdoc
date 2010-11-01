@@ -2,7 +2,6 @@
 
 Revision control for active record models.
 
-
 == Note on Patches/Pull Requests
  
 * Fork the project.
