@@ -17,5 +17,5 @@ tmtags
 coverage
 rdoc
 pkg
-
+.sqlite3
 ## PROJECT::SPECIFIC

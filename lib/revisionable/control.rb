@@ -8,5 +8,9 @@ module Revisionable
         self.send(:include, Revisionable::ActiveRecord)
       end
     end
+    
+    def fork!
+      self.childs.build(self.attributes)
+    end
   end
 end
