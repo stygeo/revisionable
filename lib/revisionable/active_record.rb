@@ -30,7 +30,7 @@ module Revisionable
         attributes.delete(:fork)
         return super
       else
-        attributes.delete_if {|k,| k == :fork}
+        attributes.delete(:fork)
         
         if child = self.childs.create(attributes)
           return child
